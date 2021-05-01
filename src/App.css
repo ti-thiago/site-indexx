@@ -1,7 +1,6 @@
 .content {
   background: url(background.png);
   background-repeat: no-repeat;
-
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -9,6 +8,7 @@
   overflow: hidden;
 }
 .logo {
+  margin-top: 50px;
   text-align: center;
   padding-bottom: 10vh;
 }
@@ -16,8 +16,6 @@
 .games {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 .games div {
   text-align: center;
@@ -29,29 +27,28 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   color: #ffffff;
+  margin-bottom: 12px;
 }
 
 h2 {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 40px;
   line-height: 47px;
   /* identical to box height */
 
-  text-align: center;
-
   color: #ffffff;
+  margin-bottom: 0px;
 }
 p {
   font-family: Roboto;
   font-style: normal;
   font-weight: bolder;
   font-size: 24px;
-  line-height: 28px;
-
+  margin-top: 10px;
   color: #ffffff;
 }
 
@@ -59,7 +56,7 @@ button {
   align-self: center;
   width: 332px;
   height: 72px;
-  background: #b10000;
+
   border-radius: 100px;
   border-block: none;
 
@@ -82,7 +79,6 @@ button {
   border-radius: 0.5rem;
   overflow: hidden;
   color: #fff;
-  background: #e7e7e7;
 }
 
 .button {
@@ -92,11 +88,14 @@ button {
   /* border: none; */
   padding: 1.5rem 3rem;
   margin: 0;
-  font-family: inherit;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  background: #b10000;
+  line-height: 28px;
   font-size: inherit;
   position: relative;
   display: inline-block;
-  background: #000;
 
   border-radius: 100px;
 }
@@ -117,7 +116,8 @@ button {
 
 .button--mimas::before {
   content: "";
-  background: #b10000;
+  background: #000;
+
   width: 120%;
   left: -10%;
   transform: skew(30deg);

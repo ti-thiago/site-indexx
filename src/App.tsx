@@ -18,7 +18,7 @@ const App: React.FC = () => {
           <div className="lineage">
             <img src={lineageLogo} alt="Lineage2 Logo" />
             <h2>L2 Essence Server</h2>
-            <p>Jogue Lineage2 com a nova classe, Death Knight!</p>
+            <p>Jogue Lineage II com a nova classe, Death Knight!</p>
             <button
               type="button"
               onClick={(e) => {
